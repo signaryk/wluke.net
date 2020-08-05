@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta name="author" content="William Luke"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body style="">
+
+<div id="header">
+    <div id="headercontent">
+        <h1 style="font-size: 40px;font-family: monospace;margin-bottom: 5px;"> [silver.knoll:~/blog/] $ </h1>
+        <p style="font-style: italic; margin-top: 0;">The Personal Website of William Luke </p>
+    </div>
+</div>
+
+<div id="navbar">
+<ul>
+    <div id="navcontent">
+        <li><a href="/"> Home </a></li>
+        <li><a href="/about/"> About Me </a></li>
+        <li><a href="/professional/"> Professional Info </a></li>
+        <li><a href="/portfolio/"> Portfolio </a></li>
+        <li><a href="/blog/" class="active"> Blog </a></li>
+        <li><a href="/resources/"> Resources </a></li>
+    </div>
+</ul>
+</div>
+
+<div class="content">
+    {{ content }}
+</div>
+
+</body>
+</html>

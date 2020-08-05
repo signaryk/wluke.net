@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta name="author" content="William Luke"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>William Luke</title>
+
+    <style>
+        body {
+            background: #46555d;
+            color: #d8d8d8;
+            font-family: sans-serif;
+        }
+
+        #title {
+            display: block;
+            margin: auto;
+            text-align: center;
+            font-size: 6vw;
+            min-font-size: 2vw;
+            font-family: monospace;
+        }
+
+        #subhead {
+            display: block;
+            text-align: center;
+            margin: 0;
+            font-size: 1.5vw;
+        }
+
+        #top {
+            position:relative;
+            padding: 40vh 0;
+        }
+
+        .centred {
+            float: none;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        table td {
+            padding-left: 2em;
+            padding-right: 2em;
+            border-collapse: collapse;
+            border: 1px solid black
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #46555d;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            /*color: #93a1a1;*/
+            color: #D8D8D8;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <span id="title">
+            [silver.knoll:~] $
+<!--            <i id="subhead"><br/>The Personal Website of William Luke</i>-->
+        </span>
+        <i id="subhead">The Personal Website of William Luke</i>
+        <br/>
+        <ul>
+            <div class="centred">
+            <li><a href="/about/"> About Me </a></li>
+            <li><a class="active" href="/professional/"> Professional Info </a></li>
+            <li><a href="/portfolio/"> Portfolio </a></li>
+            <li><a href="/blog/"> Blog </a></li>
+            <li><a href="/resources/"> Resources </a></li>
+            </div>
+        </ul>
+    </div>
+</body>

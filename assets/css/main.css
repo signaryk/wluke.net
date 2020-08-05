@@ -1,0 +1,96 @@
+a {
+  color: blue
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: #46555d;
+  width: 100%;
+}
+
+#headercontent {
+  color: #d8d8d8;
+  margin: 0 auto;
+  max-width: 60em;
+  padding: 1em;
+}
+
+#nav {
+  width: 100%;
+}
+
+#navcontent {
+  margin: 0 auto;
+  max-width: 60em;
+}
+
+.content {
+  margin:0 auto;
+  max-width:60em;
+  padding:1em;
+}
+
+.content p {
+  line-height: 1.5;
+}
+
+.content a:visited {
+  color: blue;
+}
+
+#navbar dl code {
+  font-size: 14px
+}
+
+#navbar table td {
+  padding-left: 2em;
+  padding-right: 2em;
+  border-collapse: collapse;
+  border: 1px solid black
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #404243;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  /*color: #93a1a1;*/
+  color: #D8D8D8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #111
+}
+
+code {
+  background-color:#D3D3D3;
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: #939393;
+}

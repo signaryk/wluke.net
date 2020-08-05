@@ -1,0 +1,28 @@
+---
+layout: blog
+showTitle: true
+---
+<br>
+
+<a href="/blog/" style="font-family: monospace"><= Back to Blog</a>
+
+<h1 class="page-title">
+    <a class="rss pull-right" href="/feed.xml"><i class="fa fa-rss"></i></a>
+    {{ page.title }}
+</h1>
+
+{% if page.url != '/' %}
+<p class="date" style="font-family: monospace">
+    {% if page.date %}Published {{ page.date | date: "%Y-%m-%d" }}{% endif %}
+    on <a href="/blog/">William Luke's blog</a>
+    <span class="hidden-xs">
+      &mdash;
+      <a href="{{ page.url }}">
+        Permalink
+      </a>
+    </span>
+</p>
+{% endif %}
+<article>
+    {{ content }}
+</article>
