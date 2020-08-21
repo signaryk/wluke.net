@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title: "Portfolio"
-permalink: /portfolio/
+title: "Projects"
+permalink: /projects/
 cwd: portfolio
 ---
 # Projects
-Some of my projects can be found on my [GitHub](https://github.com/signaryk) profile.
+Some of my projects can be found on my [GitHub](https://github.com/signaryk) or [Sourcehut](https://git.sr.ht/~signaryk) profiles.
 
 ## Operating Systems
 **Plan 9 from Bell Labs / 9front**: After being introduced to the Plan 9 from Bell Labs operating system by Source Hut author

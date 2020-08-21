@@ -1,7 +1,7 @@
 ---
 layout: professional
-title: "Professional Information"
-permalink: /professional/
+title: "Resume"
+permalink: /resume/
 ---
 # Professional Interests
 As I conclude my university studies, I would like to apply what I have learned to working with projects
